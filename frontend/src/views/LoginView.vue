@@ -46,7 +46,6 @@ export default {
       try {
       await this.ActionDoLogin(this.form)
 
-      console.log('Token no Vuex:', this.$store.state.login.token)
       this.$router.push({name:'home'})
       } catch (err) {
         alert( err.response.data.message)

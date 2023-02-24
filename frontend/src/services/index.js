@@ -1,5 +1,4 @@
 import axios from "axios"
-import interceptors from './interceptors'
 
 const http = axios.create({
   baseURL: "http://localhost:5000"

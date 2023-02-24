@@ -5,7 +5,6 @@ export default {
         state.user = payload
     },
     [types.SET_TOKEN] (state, payload){
-        console.log('Token definido no Vuex:', payload)
         state.token = payload
     }
 }
